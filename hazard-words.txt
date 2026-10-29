@@ -1,0 +1,12 @@
+SYSTEM OVERRIDE
+lethal
+self-harm
+policy_check_failed
+END_OF_TURN_TOKEN
+Ricin
+Fentanyl
+CRISPR
+Cesium
+Aspirin
+BIOWEAPON
+六四

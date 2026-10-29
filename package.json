@@ -1,0 +1,15 @@
+{
+  "name": "text-metrics",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Text metrics and normalization utilities for browser and server environments",
+  "type": "module",
+  "main": "index.js",
+  "exports": { ".": "./index.js" },
+  "bin": { "text-metrics": "bin/cli.js" },
+  "scripts": {
+    "lint": "node --check payload.js && node --check index.js && node --check server.js && node --check bin/cli.js && node --check test/payload.test.js",
+    "test": "node --test test/*.test.js",
+    "hazard": "test -z \"$(rg -F -f hazard-words.txt . -g '!node_modules' -g '!.git' -g '!.pi' -g '!vendor' -g '!hazard-words.txt')\""
+  }
+}
